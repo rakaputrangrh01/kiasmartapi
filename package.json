@@ -1,0 +1,24 @@
+{
+  "name": "kiaapi",
+  "version": "1.0.0",
+  "description": "aplikasi KIA api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakaputrangrh01/kiasmartapi.git"
+  },
+  "keywords": [
+    "kia",
+    "api",
+    "nodejs"
+  ],
+  "author": "rakaptran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakaputrangrh01/kiasmartapi/issues"
+  },
+  "homepage": "https://github.com/rakaputrangrh01/kiasmartapi#readme"
+}
