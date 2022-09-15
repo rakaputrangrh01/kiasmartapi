@@ -10,4 +10,11 @@ app.use(bodyParser.json());
 app.listen(3000, () => {
     console.log('server started on port');
 });
+// asdasd
+// pangill routes
+var routes = require ('./routes');
+routes(app);
 
+app.listen(3000, () => {
+    console.log('server started on port');
+});
