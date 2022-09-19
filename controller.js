@@ -31,3 +31,21 @@ exports.tampilberdasarkanid = function(req, res){
         }
     });
 };
+
+//menambahkan data admin
+exports.Tambahadmin = function(req, res){
+    var nama = req.body.nama;
+    var email = req.body.email;
+    var password = req.body.password;
+    var level_id = req.body.level_id;
+
+    connection.query( 'INSERT INTO users (nama,email,password,level_id) VALUES(?,?,?,?)',
+    [nama, email, password, level_id],
+    function(error, rows, fileds){
+        if(error){
+            console.log(error);
+           }else {
+            response.ok("berhasil menambahkan data!",res);
+           }
+     });   
+}; 
